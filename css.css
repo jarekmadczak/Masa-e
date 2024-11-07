@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: Serif
+}
+body{
+    background: #f1fbff;
+    min-width: 350px;
+}
+#price{
+    background-color: #f1fbff;
+    scroll-margin-top: 15vh;
+}
+.nav-item{
+    font-size:large;
+}
+.carousel-inner::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+.section-padding{
+    padding: 10vh 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 30vh;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 2.5vh;
+    z-index: 2;
+    text-transform: uppercase;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.9;
+}
+.navbar-nav a{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#header-link{
+    font-size: xx-large;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: #ffc107;
+}
+#header-link-2{
+    font-size: xx-large;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    color: rgba(0, 0, 0, 0.7);
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: rgba(0, 0, 0, 0.7)
+}
+.w-100{
+    height: 100vh;
+}
+#img-fluid{
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#about-company{
+    margin-top: 10vh;
+    scroll-margin-top: 30vh;
+}
+#services{
+    margin-top: 5vh;
+}
+.card{
+    float: left;
+}
+#workers{
+    margin-left: 10vh;
+}
+.about-img{
+    margin-top: -5vh;
+}
+#team{
+    margin-top: 15vh;
+    scroll-margin-top: 13vh;
+}
+#bottom-offert{
+    margin-top: 5vh;
+}
+@media only screen and ( max-width: 993px ){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 20vh;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 10px;
+    }
+    .carousel-caption p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .carousel-caption h5{
+        font-size: 45px;
+        margin-top: 4vh;
+        z-index: 2;
+        text-transform: uppercase;
+    }
+    #img-fluid{
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        border-bottom: 5vh;
+    }
+    .about-text{
+        margin-top: 5vh;
+    }
+    .container button{
+        position: absolute;
+        align: center;
+    }
+    #team{
+        margin-top: 15vh;
+    }
+    #about-panel{
+        margin-top: 5vh;
+    }
+}
