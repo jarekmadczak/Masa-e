@@ -31,6 +31,7 @@ body{
     height: 100vh;
     min-height: 300px;
 }
+
 .carousel-caption{
     bottom: 30vh;
     z-index: 2;
@@ -104,6 +105,16 @@ body{
 #bottom-offert{
     margin-top: 5vh;
 }
+.card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    height: 70vh;
+}
+
+#gap{
+    display: block;
+}
+
+
 @media only screen and ( max-width: 993px ){
     .navbar-nav{
         text-align: center;
@@ -147,4 +158,34 @@ body{
     #about-panel{
         margin-top: 5vh;
     }
+
+    #btnsbmt{
+   width: 70%;
+   left: 15%;
+   right: 15%;
+    }
+    #offert-panel{
+        margin-top: 7vh;
+    }
+    #bottom-offert{
+        width: 50%;
+        float: left;
+    }
+    #gap{
+        display: none;
+        width: 0px;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+        visibility: hidden;
+        background-color: red;
+    }
+    .card{
+        box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+        height: 80vh;
+    }
+    #about-panel2{
+        margin-top: 5vh;
+    }
+   
 }
